@@ -9,7 +9,7 @@ Clone the repo and then do the following
 ### Creating a Virtual Environment
 To create a virtual environment, run:
 ```
-python -m venv .venv
+python3.10 -m venv .venv
 ```
 
 ### Activating the Virtual Environment
@@ -41,4 +41,10 @@ API_KEY_NAME=""
 ```
 
 `NOTE:` Remember to exclude .env file from git by adding it to `.gitignore` file
+
+### Running the app
+To run the app, run:
+```
+python main.py
+```
 
